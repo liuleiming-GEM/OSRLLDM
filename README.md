@@ -19,6 +19,8 @@ Training VQ-LAE
 Training Denoising U-Net
 
 # Testing
+Pretrained models can be downloaded [here](https://pan.baidu.com/s/13NIKc-BH3kqZbMcVblf5dg). 提取码：1234
+
 Testing Denoising U-Net
 
 ## Acknowledgement

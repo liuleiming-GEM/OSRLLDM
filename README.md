@@ -1,9 +1,11 @@
-The full code will be made public after the article is accepted
 # OSRLLDM
 OSRLLDM: Omnidirectional Image Super-Resolution with Latitude-Aware Latent Diffusion Models
 
-# Environment
+# Requirements
 
+conda create -n OSRLLDM python=3.10
+conda activate OSRLLDM
+pip install -r requirements.txt
 
 # Data Preparation
 

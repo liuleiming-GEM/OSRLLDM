@@ -14,6 +14,9 @@ conda activate OSRLLDM
 
 
 # Training
+Training VQ-LAE
 
+Training Denoising U-Net
 
 # Testing
+Testing Denoising U-Net

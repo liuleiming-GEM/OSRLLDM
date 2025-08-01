@@ -3,9 +3,10 @@ OSRLLDM: Omnidirectional Image Super-Resolution with Latitude-Aware Latent Diffu
 
 # Requirements
 
-conda create -n OSRLLDM python=3.10
+```
+conda env create -f environment.yml
 conda activate OSRLLDM
-pip install -r requirements.txt
+```
 
 # Data Preparation
 

@@ -1,0 +1,79 @@
+model:
+  base_learning_rate: 1.0e-5
+  target: ldm.models.autoencoder.VQLnet
+  params:
+    monitor: "val/rec_loss"  # 保存最好的模型比较的损失目标
+    embed_dim: 4
+    n_embed: 8192
+    ddconfig:
+      double_z: False
+      z_channels: 4
+      resolution: 256
+      in_channels: 3
+      out_ch: 3
+      ch: 64
+      ch_mult: [1,2,4]  # f = 2 ^ len(ch_mult)
+      num_res_blocks: 2
+      attn_resolutions: [ ]
+      dropout: 0.0
+
+    lossconfig:
+      target: ldm.modules.losses.vqperceptual.VQLPIPSWithDiscriminator
+      params:
+        disc_conditional: False
+        disc_in_channels: 3
+        disc_start: 150001
+        disc_weight: 0.05
+        codebook_weight: 1.0
+
+    LAnetconfig:
+      upscale: 4  #
+      img_size: 64  #
+      in_chans: 3
+      embed_dim: 156
+      c_dim: 156
+      up_dim: 128
+      window_size: 8
+      depths: [ 4, 4, 4 ]
+      num_heads: [ 4, 4, 4 ]
+      img_range: 1.
+      mlp_ratio: 4
+      condition_dim: 1
+
+data:
+  target: main.DataModuleFromConfig
+  params:
+    batch_size: 4
+    batch_size_val: 32  #
+    num_workers: 2
+    wrap: false
+    train:
+      target: ldm.data.X4_ERP.oditra  #
+      params:
+        size: ${model.params.ddconfig.resolution}
+        db_dir: E:/liu/database/paper4/odi360/training
+        upscale: ${model.params.LAnetconfig.upscale}
+    validation:
+      target: ldm.data.X4_ERP.odival  #
+      params:
+        size: ${model.params.ddconfig.resolution}
+        db_dir: E:/liu/database/paper4/odi360/testing
+        upscale: ${model.params.LAnetconfig.upscale}
+
+lightning:
+  callbacks:
+    image_logger:
+      target: main.ImageLogger
+      params:
+        batch_frequency: 10000
+        val_batch_frequency: 250
+        max_images: 8
+        increase_log_steps: False
+        log_images_kwargs: {'N': 1}
+
+  trainer:
+    benchmark: True
+    max_epochs: -1
+    gpus: 1
+    devices: 1
+

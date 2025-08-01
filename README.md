@@ -20,3 +20,7 @@ Training Denoising U-Net
 
 # Testing
 Testing Denoising U-Net
+
+## Acknowledgement
+
+This project is based on [LDM](https://github.com/CompVis/latent-diffusion), and [BasicSR](https://github.com/XPixelGroup/BasicSR). Thanks for their awesome works.

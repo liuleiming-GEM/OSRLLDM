@@ -6,6 +6,12 @@ OSRLLDM: Omnidirectional Image Super-Resolution with Latitude-Aware Latent Diffu
 * More detail (See [environment.yml](environment.yml))
 A suitable conda environment named `OSRLLDM` can be created and activated with:
 ```
+conda env create -n OSRLLDM python=3.10
+conda activate OSRLLDM
+pip install -r requirements.txt
+```
+or
+```
 conda env create -f environment.yml
 conda activate OSRLLDM
 ```
@@ -21,7 +27,7 @@ Training Denoising U-Net
 # Testing
 Pretrained models (X4) and SR ODIs (X2) can be downloaded [here](https://pan.baidu.com/s/1zrW_TL0c4iUw8_CIN8u3nQ). 提取码：1234
 
-Testing Denoising U-Net
+Testing Denoising UNet
 
 ## Acknowledgement
 

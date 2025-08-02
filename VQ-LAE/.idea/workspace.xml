@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="68a16d56-19ed-45d0-86f8-a3ca216f1b62" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2kvE1j3TOUCsNDfC6nDhUDhggnh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../github/VQ-LGAN" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\liu\paper4\github_final\VQ-LGAN" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VQLGAN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="68a16d56-19ed-45d0-86f8-a3ca216f1b62" name="变更" comment="" />
+      <created>1724155436659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724155436659</updated>
+      <workItem from="1724155437851" duration="12539000" />
+      <workItem from="1724479156407" duration="101000" />
+      <workItem from="1724479377111" duration="2669000" />
+      <workItem from="1724915970368" duration="6000" />
+      <workItem from="1726752795415" duration="1745000" />
+      <workItem from="1727214708180" duration="1838000" />
+      <workItem from="1727852867868" duration="2999000" />
+      <workItem from="1728390145430" duration="9953000" />
+      <workItem from="1728476470524" duration="3045000" />
+      <workItem from="1728541656743" duration="7477000" />
+      <workItem from="1728554868743" duration="5598000" />
+      <workItem from="1728709106812" duration="16595000" />
+      <workItem from="1728969726336" duration="17155000" />
+      <workItem from="1728998629243" duration="4464000" />
+      <workItem from="1729044387024" duration="20392000" />
+      <workItem from="1729427268759" duration="1204000" />
+      <workItem from="1729735205822" duration="2940000" />
+      <workItem from="1729758571274" duration="2693000" />
+      <workItem from="1729940330328" duration="870000" />
+      <workItem from="1730730157063" duration="721000" />
+      <workItem from="1730774914114" duration="656000" />
+      <workItem from="1730781108068" duration="14531000" />
+      <workItem from="1731380104958" duration="8948000" />
+      <workItem from="1731397315385" duration="4875000" />
+      <workItem from="1731548507274" duration="4437000" />
+      <workItem from="1731896538075" duration="7897000" />
+      <workItem from="1732176892288" duration="5849000" />
+      <workItem from="1732195704930" duration="1135000" />
+      <workItem from="1732462832391" duration="1057000" />
+      <workItem from="1732760271609" duration="5723000" />
+      <workItem from="1733104412712" duration="1199000" />
+      <workItem from="1733388635784" duration="9824000" />
+      <workItem from="1733815556020" duration="18000" />
+      <workItem from="1733815589610" duration="1929000" />
+      <workItem from="1733820404195" duration="3286000" />
+      <workItem from="1733881209183" duration="21097000" />
+      <workItem from="1734532138410" duration="11566000" />
+      <workItem from="1735025359387" duration="724000" />
+      <workItem from="1735030933506" duration="1168000" />
+      <workItem from="1736065208351" duration="4924000" />
+      <workItem from="1736236555725" duration="1409000" />
+      <workItem from="1736750995745" duration="5709000" />
+      <workItem from="1737082545556" duration="205399000" />
+      <workItem from="1742128196102" duration="2926000" />
+      <workItem from="1752854105567" duration="1193000" />
+      <workItem from="1753259791605" duration="6296000" />
+      <workItem from="1753356312249" duration="7167000" />
+      <workItem from="1753442610250" duration="621000" />
+      <workItem from="1753452947351" duration="25643000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ldm/models/VQGAN.py</url>
+          <line>517</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ldm/models/autoencoder.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ldm/models/VQGAN.py</url>
+          <line>413</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ldm/models/VQGAN.py</url>
+          <line>254</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ldm/modules/losses/vqperceptual.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data/X4_ERP.py</url>
+          <line>147</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data/X4_ERP.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../../../anaconda/envs/pytorchLDM/Lib/site-packages/pytorch_lightning/trainer/trainer.py</url>
+          <line>735</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../../../anaconda/envs/pytorchLDM/Lib/site-packages/pytorch_lightning/trainer/trainer.py</url>
+          <line>832</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self.dataset_configs" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/VQLGAN1$main.coverage" NAME="main 覆盖结果" MODIFIED="1728555805086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VQLGAN_swin1$main.coverage" NAME="main 覆盖结果" MODIFIED="1733887584470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VQLGAN3_1$main.coverage" NAME="main 覆盖结果" MODIFIED="1731548704076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VQLGAN_swin$main.coverage" NAME="main 覆盖结果" MODIFIED="1733555399805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VQLGAN3$main.coverage" NAME="main 覆盖结果" MODIFIED="1729738057275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VQLGAN$main.coverage" NAME="main 覆盖结果" MODIFIED="1732091264445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VQLGAN2$main.coverage" NAME="main 覆盖结果" MODIFIED="1728962691493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VQ_LGAN$main.coverage" NAME="main 覆盖结果" MODIFIED="1754137924167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

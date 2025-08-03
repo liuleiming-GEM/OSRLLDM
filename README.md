@@ -33,7 +33,7 @@ Pretrained models (X4) and SR ODIs (X2) can be downloaded [here](https://pan.bai
 
 Testing Denoising UNet
 ```
-python inference.py --in_path=E:/liu/database/paper4/odi360/testing --yaml_name=X4_fisheye --out_path=./results/X4_fisheye --scale=4
+python inference.py --in_path=E:/liu/database/odi360/testing --yaml_name=X4_fisheye --out_path=./results/X4_fisheye --scale=4
 ```
 ## Acknowledgement
 

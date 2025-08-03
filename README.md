@@ -24,7 +24,7 @@ Training VQ-LAE
 
 Training Denoising U-Net
 
-: X4 Super-resolution under fisheye downsampling
+: X4 super-resolution under fisheye downsampling
 ```
 python main.py --cfg_path=./configs/X4_fisheye.yaml
 ```

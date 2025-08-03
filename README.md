@@ -23,6 +23,7 @@ Will be open sourced soon。。。。。。
 Training VQ-LAE
 
 Training Denoising U-Net
+: X4 Super-resolution
 ```
 python main.py --cfg_path=./configs/X4_fisheye.yaml
 ```

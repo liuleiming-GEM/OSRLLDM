@@ -1,0 +1,136 @@
+trainer:
+  target: trainer.TrainerDiffSRLPIPS
+
+autoencoder:
+  target: ldm.models.autoencoder.VQLnetInterface
+  ckpt_path: weights/X4_fisheye/VQ-LAE.ckpt
+  use_fp16: True
+  params:
+    embed_dim: 4
+    n_embed: 8192
+    ddconfig:
+      double_z: False
+      z_channels: 4
+      resolution: 256
+      in_channels: 3
+      out_ch: 3
+      ch: 64
+      ch_mult: [1,2,4]  # f = 2 ^ len(ch_mult)
+      num_res_blocks: 2
+      attn_resolutions: [ ]
+      dropout: 0.0
+
+    lossconfig:
+      target: ldm.modules.losses.vqperceptual.VQLPIPSWithDiscriminator
+      params:
+        disc_conditional: False
+        disc_in_channels: 3
+        disc_start: 150001
+        disc_weight: 0.025
+        codebook_weight: 1.0
+
+    LAnetconfig:
+      upscale: 4  #
+      img_size: 64  #
+      in_chans: 3
+      embed_dim: 156
+      c_dim: 156
+      up_dim: 128
+      window_size: 8
+      depths: [ 4, 4, 4 ]
+      num_heads: [ 4, 4, 4 ]
+      img_range: 1.
+      mlp_ratio: 4
+      condition_dim: 1
+
+model:
+  target: models.unet.UNetModelHAT
+  ckpt_path: ~
+  params:
+    image_size: 64
+    in_channels: 12
+    model_channels: 160
+    out_channels: 4
+    attention_resolutions: [64,32,16,8]
+#    attention_resolutions: [ 64,32,16]
+    dropout: 0
+    channel_mult: [ 1, 2, 2, 2 ]
+    num_res_blocks: [ 2, 2, 2, 2 ]
+#    channel_mult: [1, 2, 2]
+#    num_res_blocks: [2, 2, 2]
+    conv_resample: True
+    dims: 2
+    use_fp16: False
+    num_head_channels: 32
+    use_scale_shift_norm: True
+    resblock_updown: False
+    STB_depth: 2
+    STB_embed_dim: 192
+    window_size: 8
+    mlp_ratio: 4
+
+diffusion:
+  target: models.script_util.create_gaussian_diffusion
+  params:
+    schedule_name: exponential
+    schedule_kwargs:
+      power: 0.3
+    etas_end: 0.99
+    steps: 4
+    min_noise_level: 0.2
+    kappa: 2.0
+    weighted_mse: False
+    predict_type: xstart
+    timestep_respacing: ~
+    scale_factor: 1.0
+    normalize_input: True
+    latent_flag: True
+
+
+data:
+  target:  data.X4_insta
+  train:
+    params:
+      db_dir: E:/liu/database/paper4/odi360/training
+      HR_size: 256
+
+  val:
+    params:
+      db_dir: E:/liu/database/paper4/odi360/testing/VAL_diffusion
+      HR_size: 256
+
+train:
+  # learning rate
+  lr: 2e-5                      # learning rate
+  lr_min: 2e-6                      # learning rate
+  lr_schedule: cosin
+  warmup_iterations: 5000
+  # dataloader
+  batch: [6, 1]
+  microbatch: 6
+  num_workers: 2
+  prefetch_factor: 2            
+  # optimization settings
+  weight_decay: 0               
+  ema_rate: 0.999
+  iterations: 500000            # total iterations
+  # save logging
+  save_freq: 10000
+  log_freq: [1000, 10000, 1]         # [training loss, training images, val images]
+  loss_coef: [1.0, 1.0, 1.0, 1.0]         # [mse/Mmse/LPIPS/LDnet]
+  local_logging: True           # manually save images
+  tf_logging: False             # tensorboard logging
+  # validation settings
+  use_ema_val: True            
+  val_freq: ${train.save_freq}
+  val_y_channel: True
+  val_resolution: ${model.params.lq_size}
+  val_padding_mode: reflect
+  # training setting
+  use_amp: True                # amp training
+  seed: 123456                 # random seed
+  global_seeding: False
+  # model compile
+  compile:
+    flag: True
+    mode: reduce-overhead      # default, reduce-overhead

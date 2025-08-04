@@ -9,7 +9,7 @@ A suitable conda environment named `OSRLLDM` can be created and activated with:
 conda env create -n OSRLLDM python=3.10
 conda activate OSRLLDM
 pip install -r requirements.txt
-```鄂  
+```  
 or
 ```
 conda env create -f environment.yml

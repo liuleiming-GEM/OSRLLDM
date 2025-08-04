@@ -9,7 +9,7 @@ A suitable conda environment named `OSRLLDM` can be created and activated with:
 conda env create -n OSRLLDM python=3.10
 conda activate OSRLLDM
 pip install -r requirements.txt
-```
+```鄂  
 or
 ```
 conda env create -f environment.yml
@@ -33,7 +33,7 @@ Training Denoising U-Net
 python main.py --cfg_path=./configs/X4_fisheye.yaml
 ```
 # Testing
-Pretrained models (X4) and SR ODIs (X2) can be downloaded [here](https://pan.baidu.com/s/1zrW_TL0c4iUw8_CIN8u3nQ). 提取码：1234
+Pretrained models (X4) and SR ODIs (X2) can be downloaded [here](https://pan.baidu.com/s/1zrW_TL0c4iUw8_CIN8u3nQ)(提取码：1234) and save it to the D-UNet/weight directory.
 
 Testing Denoising UNet
 ```

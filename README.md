@@ -26,7 +26,7 @@ Training VQ-LAE
 ```
 python main.py --name=X4_fisheye --base configs/X4_fisheye.yaml
 ```
-Training Denoising U-Net
+Training Denoising UNet
 
 : X4 SR under fisheye downsampling
 ```

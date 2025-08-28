@@ -1,5 +1,5 @@
 # OSRLLDM
-OSRLLDM: Omnidirectional Image Super-Resolution with Latitude-Aware Latent Diffusion Models
+# OSRLLDM: Omnidirectional Image Super-Resolution with Latitude-Aware Latent Diffusion Models
 
 # Requirements
 * Python 3.10, Pytorch 2.3.0, pytorch-lightning 1.9.4

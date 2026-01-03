@@ -16,7 +16,7 @@ conda activate OSRLLDM
 ```
 
 # Data Preparation
-Will be open sourced soon。。。。。。
+
 
 # Training
 Training VQ-LAE

@@ -19,15 +19,15 @@ conda activate OSRLLDM
 
 
 # Training
-Training VQ-LAE
+Training VQ-LAE: 
 
-: X4 SR under fisheye downsampling
+X4 SR under fisheye downsampling
 ```
 python main.py --name=X4_fisheye --base configs/X4_fisheye.yaml
 ```
-Training Denoising UNet
+Training Denoising UNet:
 
-: X4 SR under fisheye downsampling
+X4 SR under fisheye downsampling
 ```
 python main.py --cfg_path=./configs/X4_fisheye.yaml
 ```

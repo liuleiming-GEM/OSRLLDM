@@ -17,21 +17,21 @@ conda activate OSRLLDM
 
 # Data Preparation
 ```text
-data
-├── coco
-│   ├── train
-│   │   ├── gt
-│   │   │   ├── xxx.jpg
-│   │   │   └── ...
-│   │   └── input
-│   │       ├── xxx.jpg
-│   │       └── ...
-│   └── val
-│       ├── gt
-│       │   ├── xxx.jpg
+odisr
+├── testing
+│   └── LR_ERP
+│       ├── X2
+│       │   ├── xxx.png
 │       │   └── ...
-│       └── input
-│           ├── xxx.jpg
+│       └── X4
+│           ├── xxx.png
+│           └── ...
+│   └── LR_fisheye
+│       ├── X2
+│       │   ├── xxx.png
+│       │   └── ...
+│       └── X4
+│           ├── xxx.png
 │           └── ...
 ```
 

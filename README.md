@@ -16,23 +16,7 @@ conda activate OSRLLDM
 ```
 
 # Data Preparation
-data
-├── CoCo
-│   ├── train
-│   │   ├── gt
-│   │   │   ├── xxx.jpg
-│   │   │   └── ...
-│   │   └── input
-│   │       ├── xxx.jpg
-│   │       └── ...
-│   └── val
-│       ├── gt
-│       │   ├── xxx.jpg
-│       │   └── ...
-│       └── input
-│           ├── xxx.jpg
-│           └── ...
-└── ...
+
 
 # Training
 Training VQ-LAE: 

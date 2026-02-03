@@ -32,7 +32,7 @@ X4 SR under fisheye downsampling
 python main.py --cfg_path=./configs/X4_fisheye.yaml
 ```
 # Testing
-Pretrained models (X4) and SR ODIs (X2) can be downloaded [here](https://pan.baidu.com/s/1zrW_TL0c4iUw8_CIN8u3nQ)(提取码：1234) and save it to the D-UNet/weights directory.
+Pretrained models (X4) and (X2) can be downloaded [here](https://pan.baidu.com/s/1zrW_TL0c4iUw8_CIN8u3nQ)(提取码：1234) and save it to the D-UNet/weights directory.
 
 Testing Denoising UNet
 ```
